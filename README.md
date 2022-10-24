@@ -69,6 +69,9 @@ const someBoolean = string.startsWith('the') // false
 // Check if string ends with substring (case sensitive)
 const someBoolean = string.endsWith('father') // true
 
+// Check if string includes substring
+const someBoolean = string.includes('king is') // true
+
 // Replace a substring by other substring
 const someString = string.replaceAll('my', 'your') // 'The king is your father'
 
