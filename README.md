@@ -86,7 +86,7 @@ const someString = stringWithSpaces.trim() // 'string with spaces'
 const someNumber = string.length // 21
 
 // Split/get list from string given a substring as separator
-const someString = string.split(' ') // ['The', 'king', 'is', 'my', 'father']
+const someArray = string.split(' ') // ['The', 'king', 'is', 'my', 'father']
 ```
 
 ___
