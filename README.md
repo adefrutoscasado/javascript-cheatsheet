@@ -7,7 +7,7 @@ ___
 
 ### Boolean type
 
-Notation
+Declaration
 ```js
 let someBoolean = false
 let someBoolean = true
@@ -17,7 +17,7 @@ ___
 
 ### Number type
 
-Notation
+Declaration
 ```js
 let number = 19.91
 ```
@@ -28,32 +28,33 @@ const someBoolean = isNaN('someString') // true
 const someBoolean = isNaN(19.91) // false
 const someBoolean = isNaN('19.91') // false
 
-// Convert number to string 
-const someString = number.toString() // '19.91'
-
-// Remove N decimals 
-const someString = number.toFixed(1) // '19.9'
-
-// Convert number/string to float number 
+// Convert number/string to float number (with decimals)
 const someNumber = parseFloat('15.92') // 15.92
 
-// Convert number/string to integer number
+// Convert number/string to integer number (without decimals)
 const someNumber = parseInt(number) // 19
 ```
 Methods
 ```js
 // Convert number to string 
 const someString = number.toString() // '19.91'
+
+// Convert number to string 
+const someString = number.toString() // '19.91'
+
+// Define amount of decimals 
+const someString = number.toFixed(1) // '19.9'
+const someString = number.toFixed(3) // '19.910'
 ```
 
 ___
 
 ### String type
 
-Notation
+Declaration
 ```js
 const string = 'The king is my father'
-const string = 'The king is my father'
+const string = "The king is my father"
 
 // String templates
 const who = 'father'
@@ -92,7 +93,7 @@ ___
 
 ### Object type
 
-Notation
+Declaration
 ```js
 const object = {
   name: 'John',
@@ -171,7 +172,7 @@ ___
 
 ### Array type
 
-Notation
+Declaration
 ```js
 let array = ['Pais Vasco', 'Islas Cies', 'Cantabria', 'Islas Canarias']
 ```
