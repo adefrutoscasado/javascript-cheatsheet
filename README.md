@@ -116,9 +116,9 @@ Methods
 
     // Fixed key
     object.dni = '123-45-6789'
-    const key = 'dni'
 
     // Dynamic key
+    const key = 'dni'
     object[key] = '123-45-6789'
 
     // const object = {
