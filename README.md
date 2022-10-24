@@ -225,7 +225,7 @@ const someArray = array.filter((value, position) => {
 const someString = array.find((value, position) => {
     return value.startsWith('Islas')
 })
-// 'Islas Cies',
+// 'Islas Cies'
 
 
 // Check if SOME value of the array satisfies a condition.
@@ -235,7 +235,7 @@ const someBoolean = array.some((value, position) => {
 // true
 
 
-// Check if EVERY of the array value satisfies a condition.
+// Check if EVERY value of the array value satisfies a condition.
 const someBoolean = array.every((value, position) => {
     return value.startsWith('Islas')
 })
