@@ -150,7 +150,7 @@ Methods
 
      // Variable key
     const key = 'age'
-    delete object.age
+    delete object[key]
 
     // const object = {
     //   name: 'John Doe',
