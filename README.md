@@ -159,13 +159,13 @@ Methods
 Functions
 ```js
 // Get keys as list
-Object.keys(object) // ['name', 'age']
+const someArray = Object.keys(object) // ['name', 'age']
 
 // Get values as list
-Object.values(object) // ['John', 25]
+const someArray = Object.values(object) // ['John', 25]
 
 // Get keys and values as list
-Object.entries(object) // [['name', 'John'], ['age', 25]]
+const someArray = Object.entries(object) // [['name', 'John'], ['age', 25]]
 ```
 
 ___
