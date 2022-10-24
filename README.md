@@ -66,11 +66,11 @@ Methods
 const someBoolean = string.startsWith('The') // true
 const someBoolean = string.startsWith('the') // false
 
-// Check if string ends with substring
+// Check if string ends with substring (case sensitive)
 const someBoolean = string.endsWith('father') // true
 
 // Replace a substring by other substring
-const otherString = string.replaceAll('my', 'your') // 'The king is your father'
+const someString = string.replaceAll('my', 'your') // 'The king is your father'
 
 // Make string lower case
 const someString = string.toLowerCase() // 'the king is my father'
@@ -178,9 +178,14 @@ let array = ['Pais Vasco', 'Islas Cies', 'Cantabria', 'Islas Canarias']
 ```
 Methods
 ```js
+// get length of array
+const someNumber = array.length // 4
+
+
 // Add element to array
 array.push('La Alpujarra')
 // ['Pais Vasco', 'Islas Cies', 'Cantabria', 'Islas Canarias', 'La Alpujarra']
+
 
 // Get element of aray given a position
     // Fixed key
