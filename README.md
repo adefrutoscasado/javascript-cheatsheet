@@ -246,6 +246,10 @@ const someBoolean = array.every((value, position) => {
 const someBoolean = array.includes('Cantabria') // true
 
 
+// Check position of a value in the array (only first one)
+const someNumber = array.indexOf('Cantabria') // 2
+
+
 // Join array of strings in single string (giving a separator)
 const someString = array.join('-') // 'País Vasco-Islas Cies-Cantabria-Islas Canarias'
 
