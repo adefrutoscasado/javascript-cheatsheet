@@ -9,8 +9,8 @@ ___
 
 Declaration
 ```js
-let someBoolean = false
-let someBoolean = true
+const someBoolean = false
+const someBoolean = true
 ```
 
 ___
@@ -19,7 +19,7 @@ ___
 
 Declaration
 ```js
-let number = 19.91
+const number = 19.91
 ```
 Functions
 ```js
