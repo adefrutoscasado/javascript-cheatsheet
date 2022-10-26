@@ -185,7 +185,7 @@ Methods
 const someNumber = array.length // 4
 
 
-// Add element to array
+// Add element to array (Modifies itself)
 array.push('La Alpujarra')
 // ['Pais Vasco', 'Islas Cies', 'Cantabria', 'Islas Canarias', 'La Alpujarra']
 
@@ -254,21 +254,21 @@ const someNumber = array.indexOf('Cantabria') // 2
 const someString = array.join('-') // 'País Vasco-Islas Cies-Cantabria-Islas Canarias'
 
 
-// Reverse order of array
-const someArray = array.reverse() // ['Islas Canarias', 'Cantabria', 'Islas Cies', 'País Vasco']
+// Reverse order of array (Modifies itself)
+array.reverse() // ['Islas Canarias', 'Cantabria', 'Islas Cies', 'País Vasco']
 ```
 
 Order functions
 ```js
-// Order from min to max
+// Order from min to max (Modifies itself)
 const array = [40, 100, 1, 5, 25, 10]
 array.sort((a, b) => a - b) // [1, 5, 10, 25, 40, 100]
 
-// Order from max to min
+// Order from max to min (Modifies itself)
 const array = [40, 100, 1, 5, 25, 10]
 array.sort((a, b) => b - a) // [100, 40, 25, 10, 5, 1]
 
-// Order alphabetically
+// Order alphabetically (Modifies itself)
 const array = ['Pais Vasco', 'Islas Cies', 'Cantabria', 'Islas Canarias']
 array.sort((a, b) => a.localeCompare(b)) // ['Cantabria', 'Islas Canarias', 'Islas Cies', 'Pais Vasco']
 ```
