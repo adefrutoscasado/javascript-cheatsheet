@@ -177,11 +177,11 @@ ___
 
 Declaration
 ```js
-let array = ['Pais Vasco', 'Islas Cies', 'Cantabria', 'Islas Canarias']
+const array = ['Pais Vasco', 'Islas Cies', 'Cantabria', 'Islas Canarias']
 ```
 Methods
 ```js
-// get length of array
+// Get length of array
 const someNumber = array.length // 4
 
 
@@ -261,14 +261,14 @@ const someArray = array.reverse() // ['Islas Canarias', 'Cantabria', 'Islas Cies
 Order functions
 ```js
 // Order from min to max
-const points = [40, 100, 1, 5, 25, 10]
-points.sort((a, b) => a - b) // [1, 5, 10, 25, 40, 100]
+const array = [40, 100, 1, 5, 25, 10]
+array.sort((a, b) => a - b) // [1, 5, 10, 25, 40, 100]
 
 // Order from max to min
-const points = [40, 100, 1, 5, 25, 10]
-points.sort((a, b) => b - a) // [100, 40, 25, 10, 5, 1]
+const array = [40, 100, 1, 5, 25, 10]
+array.sort((a, b) => b - a) // [100, 40, 25, 10, 5, 1]
 
 // Order alphabetically
-let array = ['Pais Vasco', 'Islas Cies', 'Cantabria', 'Islas Canarias']
+const array = ['Pais Vasco', 'Islas Cies', 'Cantabria', 'Islas Canarias']
 array.sort((a, b) => a.localeCompare(b)) // ['Cantabria', 'Islas Canarias', 'Islas Cies', 'Pais Vasco']
 ```
