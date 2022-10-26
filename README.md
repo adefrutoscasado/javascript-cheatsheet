@@ -124,7 +124,7 @@ Methods
     const key = 'dni'
     object[key] = '123-45-6789'
 
-    // const object = {
+    // {
     //   name: 'John',
     //   age: 25,
     //   dni: '123-45-6789',
@@ -140,7 +140,7 @@ Methods
     const key = 'name'
     object[key] = 'John Doe'
 
-    // const object = {
+    // {
     //   name: 'John Doe',
     //   age: 25,
     // }
@@ -155,7 +155,7 @@ Methods
     const key = 'age'
     delete object[key]
 
-    // const object = {
+    // {
     //   name: 'John Doe',
     // }
 ```
