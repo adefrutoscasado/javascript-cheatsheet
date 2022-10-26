@@ -177,7 +177,7 @@ ___
 
 Declaration
 ```js
-const array = ['Pais Vasco', 'Islas Cies', 'Cantabria', 'Islas Canarias']
+const array = ['País Vasco', 'Islas Cíes', 'Cantabria', 'Islas Canarias']
 ```
 Methods
 ```js
@@ -187,16 +187,16 @@ const someNumber = array.length // 4
 
 // Add element to array (Modifies itself)
 array.push('La Alpujarra')
-// ['Pais Vasco', 'Islas Cies', 'Cantabria', 'Islas Canarias', 'La Alpujarra']
+// ['País Vasco', 'Islas Cíes', 'Cantabria', 'Islas Canarias', 'La Alpujarra']
 
 
 // Get element of aray given a position
     // Fixed key
-    const someString = array[1] // 'Islas Cies'
+    const someString = array[1] // 'Islas Cíes'
 
     // Variable key
     const position = 1
-    const someString = array[position] // 'Islas Cies'
+    const someString = array[position] // 'Islas Cíes'
 
 
 // Map to new values given a function
@@ -204,8 +204,8 @@ const someArray = array.map((value, position) => {
     return `${value} is at position ${position}`
 })
 // [
-//     'Pais Vasco is at position 0',
-//     'Islas Cies is at position 1',
+//     'País Vasco is at position 0',
+//     'Islas Cíes is at position 1',
 //     'Cantabria is at position 2',
 //     'Islas Canarias is at position 3'
 // ]
@@ -216,7 +216,7 @@ const someArray = array.filter((value, position) => {
     return value.startsWith('Islas') // boolean
 })
 // [
-//     'Islas Cies',
+//     'Islas Cíes',
 //     'Islas Canarias'
 // ]
 
@@ -225,7 +225,7 @@ const someArray = array.filter((value, position) => {
 const someString = array.find((value, position) => {
     return value.startsWith('Islas')
 })
-// 'Islas Cies'
+// 'Islas Cíes'
 
 
 // Check if SOME value of the array satisfies a condition.
@@ -251,11 +251,11 @@ const someNumber = array.indexOf('Cantabria') // 2
 
 
 // Join array of strings in single string (giving a separator)
-const someString = array.join('-') // 'País Vasco-Islas Cies-Cantabria-Islas Canarias'
+const someString = array.join('-') // 'País Vasco-Islas Cíes-Cantabria-Islas Canarias'
 
 
 // Reverse order of array (Modifies itself)
-array.reverse() // ['Islas Canarias', 'Cantabria', 'Islas Cies', 'País Vasco']
+array.reverse() // ['Islas Canarias', 'Cantabria', 'Islas Cíes', 'País Vasco']
 ```
 
 Order functions
@@ -269,6 +269,6 @@ const array = [40, 100, 1, 5, 25, 10]
 array.sort((a, b) => b - a) // [100, 40, 25, 10, 5, 1]
 
 // Order alphabetically (Modifies itself)
-const array = ['Pais Vasco', 'Islas Cies', 'Cantabria', 'Islas Canarias']
-array.sort((a, b) => a.localeCompare(b)) // ['Cantabria', 'Islas Canarias', 'Islas Cies', 'Pais Vasco']
+const array = ['País Vasco', 'Islas Cíes', 'Cantabria', 'Islas Canarias']
+array.sort((a, b) => a.localeCompare(b)) // ['Cantabria', 'Islas Canarias', 'Islas Cíes', 'País Vasco']
 ```
