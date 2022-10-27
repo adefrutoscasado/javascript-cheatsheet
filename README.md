@@ -199,6 +199,16 @@ array.push('La Alpujarra')
     const someString = array[position] // 'Islas Cíes'
 
 
+// Ireate array / Execute function for each element
+array.forEach((value, position) => {
+    console.log(`${value} is at position ${position}`)
+})
+// 'País Vasco is at position 0',
+// 'Islas Cíes is at position 1',
+// 'Cantabria is at position 2',
+// 'Islas Canarias is at position 3'
+
+
 // Map to new values given a function
 const someArray = array.map((value, position) => {
     return `${value} is at position ${position}`
