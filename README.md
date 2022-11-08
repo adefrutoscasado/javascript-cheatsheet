@@ -178,6 +178,10 @@ ___
 Declaration
 ```js
 const array = ['País Vasco', 'Islas Cíes', 'Cantabria', 'Islas Canarias']
+
+// Create array of some value given a length
+const value = null
+const arrayOfValueGivenALength = Array(3).fill(value) // [null, null, null]
 ```
 Methods
 ```js
