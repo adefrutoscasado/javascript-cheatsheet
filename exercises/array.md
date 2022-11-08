@@ -107,7 +107,62 @@ printNumbersExcept([3, 6, 7])
 // 9
 // 10
 ```
-8. Create a function that receives 2 arrays and return the merged array without duplicated values. Example:
+
+8. Create a function to reverse the order of the characters in a string
+
+<details>
+<summary>Solution</summary>
+
+```js
+const reverseString = (string) => {
+    return string.split('').reverse().join('')
+}
+```
+</details>
+
+9. Create a function that receives an array of numbers and returns the maximum value.
+
+<details>
+<summary>Solution</summary>
+
+```js
+const findMaxValue = (array) => {
+    let maxValue = 0
+    array.forEach((value) => {
+        if (value > maxValue) {
+            maxValue = value
+        }
+    })
+    return maxValue
+}
+```
+</details>
+
+10. Create a function that returns true if every value of an array is higher or equal to 10.
+
+<details>
+<summary>Solution</summary>
+
+```js
+const isPerfectScore = (array) => {
+    return array.every((value) => value >= 10)
+}
+```
+</details>
+
+11. Create a function that returns true if some value of an array is higher or equal to 40.
+
+<details>
+<summary>Solution</summary>
+
+```js
+const temperatureHasExcedeed40Degrees = (array) => {
+    return array.some((value) => value >= 40)
+}
+```
+</details>
+
+12. Create a function that receives 2 arrays and return the merged array without duplicated values. Example:
 
 ```js
 unionArrays([3, 6, 7], [2, 3, 4])
@@ -125,7 +180,7 @@ const unionArrays = (array1, array2) => {
 ```
 </details>
 
-9. Create a function that receives 2 arrays and return an array with only the coincident values. Example:
+13. Create a function that receives 2 arrays and return an array with only the coincident values. Example:
 ```js
 intersectionArrays([3, 6, 7], [2, 3, 4])
 
@@ -141,7 +196,7 @@ const intersectionArrays = (array1, array2) => {
 ```
 </details>
 
-10. Create a function that receives an array of numbers and returns a new array including only the odd numbers.
+14. Create a function that receives an array of numbers and returns a new array including only the odd numbers.
 <details>
 <summary>Solution</summary>
 
@@ -153,7 +208,7 @@ const onlyOddArray = (array) => {
 ```
 </details>
 
-11. Create a function that receives an array of numbers and returns an array of strings indicating if each one is odd or even. Example:
+15. Create a function that receives an array of numbers and returns an array of strings indicating if each one is odd or even. Example:
 ```js
 defineOddOrEven([3, 6, 7])
 
