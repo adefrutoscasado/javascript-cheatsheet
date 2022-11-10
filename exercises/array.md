@@ -94,21 +94,7 @@ const printNumbersExcept = (excludedArray) => {
 ```
 </details>
 
-7. Create a function that logs all numbers from 1 to 10 except the numbers of given array that should be excluded. Example:
-
-```js
-printNumbersExcept([3, 6, 7])
-
-// 1
-// 2
-// 4
-// 5
-// 8
-// 9
-// 10
-```
-
-8. Create a function to reverse the order of the characters in a string
+7. Create a function to reverse the order of the characters in a string
 
 <details>
 <summary>Solution</summary>
@@ -120,7 +106,7 @@ const reverseString = (string) => {
 ```
 </details>
 
-9. Create a function that receives an array of numbers and returns the maximum value.
+8. Create a function that receives an array of numbers and returns the maximum value.
 
 <details>
 <summary>Solution</summary>
@@ -138,7 +124,7 @@ const findMaxValue = (array) => {
 ```
 </details>
 
-10. Create a function that returns true if every value of an array is higher or equal to 10.
+9. Create a function that returns true if every value of an array is higher or equal to 10.
 
 <details>
 <summary>Solution</summary>
@@ -150,7 +136,7 @@ const isPerfectScore = (array) => {
 ```
 </details>
 
-11. Create a function that returns true if some value of an array is higher or equal to 40.
+10. Create a function that returns true if some value of an array is higher or equal to 40.
 
 <details>
 <summary>Solution</summary>
@@ -162,7 +148,7 @@ const temperatureHasExcedeed40Degrees = (array) => {
 ```
 </details>
 
-12. Create a function that receives 2 arrays and return the merged array without duplicated values. Example:
+11. Create a function that receives 2 arrays and return the merged array without duplicated values. Example:
 
 ```js
 unionArrays([3, 6, 7], [2, 3, 4])
@@ -180,7 +166,7 @@ const unionArrays = (array1, array2) => {
 ```
 </details>
 
-13. Create a function that receives 2 arrays and return an array with only the coincident values. Example:
+12. Create a function that receives 2 arrays and return an array with only the coincident values. Example:
 ```js
 intersectionArrays([3, 6, 7], [2, 3, 4])
 
@@ -196,7 +182,7 @@ const intersectionArrays = (array1, array2) => {
 ```
 </details>
 
-14. Create a function that receives an array of numbers and returns a new array including only the odd numbers.
+13. Create a function that receives an array of numbers and returns a new array including only the odd numbers.
 <details>
 <summary>Solution</summary>
 
@@ -208,7 +194,7 @@ const onlyOddArray = (array) => {
 ```
 </details>
 
-15. Create a function that receives an array of numbers and returns an array of strings indicating if each one is odd or even. Example:
+14. Create a function that receives an array of numbers and returns an array of strings indicating if each one is odd or even. Example:
 ```js
 defineOddOrEven([3, 6, 7])
 
