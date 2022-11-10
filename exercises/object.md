@@ -133,10 +133,10 @@ const removeFromObject = (object, array) => {
 ```
 </details>
 
-9. Create a function to merge 2 objects. Keys of first object will have preference over second one.
+9. Create a function to merge 2 objects. Keys of first object will have preference over second one (Order is irrelevant)
 
 ```js
-mergeObjects({a: 1, b: 2}, {a: 1, c: 3})
+mergeObjects({a: 1, b: 2}, {a: 10, c: 3})
 
 // {a: 1, b: 2, c: 3}
 ```
@@ -151,14 +151,14 @@ const mergeObjects = (object1, object2) => {
             object1[key] = object2[key]
         }
     })
-    return object
+    return object1
 }
 // Built-in solutions
 const mergeObjects = (object1, object2) => {
-    return Object.assign(object1, object2)
+    return Object.assign(object2, object1)
 }
 const mergeObjects = (object1, object2) => {
-    return {...object1, ...object2}
+    return {...object2, ...object1}
 }
 ```
 </details>
