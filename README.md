@@ -158,6 +158,12 @@ Methods
     // {
     //   name: 'John Doe',
     // }
+
+
+// Check if property exists in object
+
+    const key = 'name'
+    key in object // true
 ```
 Functions
 ```js
