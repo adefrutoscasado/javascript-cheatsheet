@@ -212,3 +212,44 @@ const defineOddOrEven = (array) => {
 }
 ```
 </details>
+
+15. Create a function that receives an array of strings and returns the longest. Example:
+```js
+getLongestItem(['a', 'test'])
+
+// 'test'
+```
+<details>
+<summary>Solution</summary>
+
+```js
+const getLongestItem = (array) => {
+    let longest = ''
+    array.forEach((value) => {
+        if (value.length > longest.length) {
+            longest = value
+        }
+    })
+    return longest
+}
+```
+</details>
+
+16. Create a function that receives an array and a string. It should return the amount of coincidences that are equal to the string. Example:
+```js
+countCoincidences(['one', 'two', 'three', 'test', 'test'], 'test')
+
+// 2
+```
+<details>
+<summary>Solution</summary>
+
+```js
+const countCoincidences = (array, valueToCount) => {
+    const coincidencesArray = array.filter((value) => {
+        return value === valueToCount
+    })
+    return coincidencesArray.length
+}
+```
+</details>
